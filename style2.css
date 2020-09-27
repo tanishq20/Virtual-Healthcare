@@ -1,0 +1,356 @@
+/* header */
+
+header img{
+	width: 120px;
+}
+header{
+	padding: 40px;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+
+  width: 100%;
+border: none;
+  overflow: hidden;
+  background: rgb(255,255,255);
+  /*background-color: LavenderBlush; */
+  height: 100px;
+}
+.navbar a {
+  margin-left: 20px;
+  margin-top: 17px;
+    text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+color: palevioletred;
+font-size: 20px;
+}
+.navbar ul a:hover {
+  background-color: #DB7093; 
+  color:white;
+  border-radius: 20px; 
+  padding: 5px;
+} 
+.navbar ul{
+	float: right;
+	position: relative;
+	padding-right: 60px;
+
+	padding-top: 30px;
+
+}
+@media(min-width: 449px){
+header{
+	 height: 100px;
+	}
+	
+}
+@media (max-width: 450px) {
+	.navbar{
+		height: auto;
+	}
+.navbar a{
+	float: none;
+		width: 100%;
+		display: block;
+    text-align: center;
+    position: relative;
+    right : 15px;
+	}
+	.navbar a img{
+		align-content: center;
+	}
+	.header ul a{
+    position: relative;
+   
+	right:15%;
+    float: none;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+ .navbar-header{
+ 	height: 84px;
+ }
+
+}
+
+/*header end*/
+
+
+
+
+
+/* foooter*/
+
+.panel-footer{
+	background: rgba(219, 112, 147, 0.8);
+	
+	color: white;
+	opacity: 0.7;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+
+#social i{
+	color: white;
+	padding-right: 15px;
+	font-size: 18px;
+	padding-top: 10px;
+}
+#social a{
+color: white;
+font-size: 20px;
+font-family: 'Itim', cursive;
+}
+#love i{
+	color: red;
+	
+}
+
+#company {
+	position: relative;
+	left: 20px;
+	padding-top: 22px;
+
+}
+#company p{
+font-family: 'Itim', cursive;
+	padding-left: 20px;
+	font-size: 15px;
+}
+#company img{
+  height: 150px;
+}
+.row span{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Fredoka One', cursive;
+color: white;
+text-decoration: underline;
+
+}
+#content{
+   padding-top: 40px;
+   color: white;
+   padding-left: 50px;
+
+}
+#social{
+padding-top: 40px;
+padding-left: 50px;
+}
+#info{
+padding-top: 40px;
+padding-left: 30px;
+font-family: 'Itim', cursive;
+}
+#content a{
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Itim', cursive;
+
+	}
+	
+#info i, #content i{
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+
+}
+/* foot end */
+
+#about{
+	background-image: url('images2/back11.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	bottom: 20px;
+}
+#about h3{
+	font-size: 60px;
+	font-family: 'Itim', cursive;
+	padding-top: 10px;
+	color: #505050;
+}
+#general p{
+	padding-top: 50px;
+	color: 	#707070;
+	padding-bottom: 20px;
+
+}
+ #mission p, #vision p{
+	color: 	#707070;
+	padding-bottom: 20px;
+}
+ #mission h2, #vision h2{
+ 	font-family: 'Cairo', sans-serif;
+ }
+#mission h4{
+color: LightSeaGreen;
+}
+
+#vision i{
+padding:5px;
+color: palevioletred;
+
+}
+
+
+
+/* Why class */
+
+
+.edit{
+	font-weight: bold;
+	
+
+}
+.pic{
+	/*width: 50%; */
+	float:left;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+
+}
+.pic img{
+	border-radius: 200px;
+}
+.text{
+	/*width:50%; */
+	float: right;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.why h1{
+	color: DarkSlateGrey;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.text i{
+	padding-right:4px;
+	color: indianred;
+
+}
+
+/* why ends */
+.home2{
+	background-image: url('images2/back14.jpg');
+	/*background: #F8F8F8; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*position: relative;
+	bottom: 20px; */
+	border-top: 20px ridge palevioletred;
+	border-bottom: 20px groove palevioletred;
+}
+
+/*map */
+.heading p{
+	color: 	#707070;
+}
+.map{
+	
+	/*width: 50%; */
+	float: right;
+}
+.map img{
+	width: 100%;
+}
+.heading{
+	/*width: 50%; */
+	text-align: center;
+	float: left;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: auto;
+	
+}
+.heading h2{
+
+	padding-top: 20px;
+	font-size:50px;
+	color: saddlebrown;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+}
+
+/*map ends */
+
+body{
+	background: url(https://image.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg);
+}
+
+.sub{
+	background: #F0F0F0;
+}
+
+.team{
+	background: #F0F0F0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	position: relative;
+	bottom: 20px;
+	
+}
+
+.service-box {
+  position: relative;
+  width: 100%;
+}
+
+.service-box img {
+  border-radius: 0px;
+  width: 100%;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+ .intro{
+padding-top: 2px;
+text-align: center;
+background: white;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+
+}
+.intro h4{
+font-weight: bold;
+}
+.intro p{
+font-weight: bold;
+color: grey;
+position: relative;
+bottom: 5px;
+}
+.tabs li{
+	padding: 10px;
+	
+}
+
+.tabs li a{
+	background: rosybrown;
+	color: white;
+	font-weight: bold;
+
+}
+
+
+
